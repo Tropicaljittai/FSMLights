@@ -41,7 +41,7 @@ Below is how it works visualized:
 
 # Implementation in C
 
-To run the code, we must first run "make", as for myself I am on Windows and am using visual studio code, so for me I'll have to run "wsl" first and "make" afterwads, after running "make", the program will automatically run on a forever loop, and will behave according to the description above.
+To run the code, we must first run "make", as for myself I am on Windows and am using visual studio code, so for me I'll have to run "wsl" first and "make" afterwads, after running "make", the program will automatically run on a forever loop, and will behave according to the description above. For my program, I used cs50's library for help in taking input, just because scanf is dangerous in my opinion, and it just make things easier.
 
 ## This is a few screenshots example of how it will look like when running the program
 
