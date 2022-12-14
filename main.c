@@ -4,7 +4,7 @@
 #include "mylib/mylib.h"
 
 int main(){
-    int S0 = 0, S1=0,s0 = 0, s1 = 0, b = 0 , b1 = 0, b2 = 0, o0 = 0, o1 = 0;
+    int S0 = 0, S1=0, s0 = 0, s1 = 0, b = 0 , b1 = 0, b2 = 0, o0 = 0, o1 = 0;
     while (true){
         if ( S0 == 0 && S1 == 0){ 
             system("clear");
@@ -20,6 +20,7 @@ int main(){
             printf("\033[0;31m" "L1: OFF\n");
             printf("\033[0;33m" "L2: ON\n");
             printf("\033[0;31m" "L3: OFF\n" "\033[0;37m"); 
+
         }
         else if ( S0 == 1 && S1 == 1){
             system("clear");
@@ -44,11 +45,11 @@ int main(){
             b = 0;
         }
         state(s0, s1, b1, b2, &S0, &S1);
-        o0 = output0(s0);
-        o1 = output1(s1);
         s0 = S0;
         s1 = S1;
+        output(s0, s1, &o0, &o1);
     }
 
     return 0;
+
 }
