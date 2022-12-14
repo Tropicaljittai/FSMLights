@@ -1,4 +1,4 @@
-# FSMLights
+# FSM House Lights
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052499794473517066/image.png)
 
   At the starting state in the house, all lights are turned off. If one of the buttons is pressed (B1/B2) then L1 will turn on.  After L1 is turned on, if B1 is pressed then L1 will turn off and L2 will turn on, but if B2 is pressed then L1 will turn off and L3 will turn on. Finally, if any of the buttons Is pressed(B1/B2) then, the current light that is on will be turned off and we’ll get back at the initial state of the system
