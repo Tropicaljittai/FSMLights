@@ -4,7 +4,7 @@
 #include "mylib/mylib.h"
 
 int main(){
-    int S0 = 0, S1=0, s0 = 0, s1 = 0, b = 0 , b1 = 0, b2 = 0, o0 = 0, o1 = 0;
+    int S0 = 0, S1=0, s0 = 0, s1 = 0 , b1 = 0, b2 = 0, o0 = 0, o1 = 0;
     while (true){
         if ( S0 == 0 && S1 == 0){ 
             system("clear");
@@ -29,21 +29,26 @@ int main(){
         }
         b1 = 0;
         b2 = 0;
-        printf("button (1/2/3(both)): ");
-        scanf("%d", &b);
-        if (b == 1){
-            b1 = 1;
-        }
-        else if (b == 2){
-            b2 = 1;
-        }
-        else if (b == 3){
-            b1 = 1;
-            b2 = 1;
+        int b = get_int("Button (1/2/3(both)): ");
+        if (b != 1 || b != 2 || b != 3){
+            if (b == 1){
+                b1 = 1;
+            }
+            else if (b == 2){
+                b2 = 1;
+            }
+            else if (b == 3){
+                b1 = 1;
+                b2 = 1;
+            }
+            else{
+                b = 0;
+            }
         }
         else{
             b = 0;
         }
+        
         state(s0, s1, b1, b2, &S0, &S1);
         s0 = S0;
         s1 = S1;
