@@ -30,20 +30,15 @@ int main(){
         b1 = 0;
         b2 = 0;
         int b = get_int("Button (1/2/3(both)): ");
-        if (b != 1 || b != 2 || b != 3){
-            if (b == 1){
-                b1 = 1;
-            }
-            else if (b == 2){
-                b2 = 1;
-            }
-            else if (b == 3){
-                b1 = 1;
-                b2 = 1;
-            }
-            else{
-                b = 0;
-            }
+        if (b == 1){
+            b1 = 1;
+        }
+        else if (b == 2){
+            b2 = 1;
+        }
+        else if (b == 3){
+            b1 = 1;
+            b2 = 1;
         }
         else{
             b = 0;
