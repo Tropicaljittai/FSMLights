@@ -37,7 +37,8 @@ And finally if we don't press either b1 or b2, and we instead press both of the 
 
 If we end up with the two states, where either one of the buttons is pressed and not both, if we press either button 1 or 2 (b1/b2), then the current light that's turned on (L2/L3) will be turned off and we will back at our initial state. ( If both buttons are instead pressed then it will also stay in the current state, depending on either L2 or L3 was turned on.)
 
-![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052499794473517066/image.png)
+![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052964504281026590/image.png)
+![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052964678428528670/image.png)
 
 Here's a simplified sequence of all the states.
 
