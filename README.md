@@ -32,7 +32,7 @@ Below is how it works visualized:
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052500535082745876/image.png)
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052500546017316894/image.png)
 
-## From each K-map we will have these equations
+## From each K-map we can derive combinatorial boolean equations
 
 - S0 = s0 B1’ B2’ + s0 B1 B2 + s0’ s1 B1’ B2 + s0’ s1 B1 B2’
 - S1 = s0’ B2 + s1 B1’ B2’ + s1 B1 B2 + s0’ s1’ B1
