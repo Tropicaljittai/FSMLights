@@ -42,7 +42,7 @@ If we end up with the two states, where either one of the buttons is pressed and
 
 Here's a simplified sequence of all the states.
 
-![FSMLights](https://media.discordapp.net/attachments/734045662169137234/1052499988883701780/image.png)
+![FSMLights](https://media.discordapp.net/attachments/734045662169137234/1053221739175358514/image.png)
 
  # From this we end up with:
  
