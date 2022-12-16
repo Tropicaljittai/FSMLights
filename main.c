@@ -9,23 +9,39 @@ int main(){
         if ( S0 == 0 && S1 == 0){ 
             system("clear");
             printf("\033[0;31m" "L1: OFF\nL2: OFF\nL3: OFF\n" "\033[0;37m");  
+            printf("\n");
+            printf("Current state = %d%d\n", S0, S1);
+            printf("Output: %d%d\n", o0, o1);
+            printf("\n");
         }
         else if ( S0 == 0 && S1 == 1){
             system("clear");
             printf("\033[0;33m" "L1: ON\n");
             printf("\033[0;31m" "L2: OFF\nL3: OFF\n" "\033[0;37m"); 
+            printf("\n");
+            printf("Current state = %d%d\n", S0, S1);
+            printf("Output: %d%d\n", o0, o1);
+            printf("\n");
         }
         else if ( S0 == 1 && S1 == 0){
             system("clear");
             printf("\033[0;31m" "L1: OFF\n");
             printf("\033[0;33m" "L2: ON\n");
             printf("\033[0;31m" "L3: OFF\n" "\033[0;37m"); 
+            printf("\n");
+            printf("Current state = %d%d\n", S0, S1);
+            printf("Output: %d%d\n", o0, o1);
+            printf("\n");
 
         }
         else if ( S0 == 1 && S1 == 1){
             system("clear");
             printf("\033[0;31m" "L1: OFF\nL2: OFF\n");
             printf("\033[0;33m" "L3: ON\n" "\033[0;37m");
+            printf("\n");
+            printf("Current state = %d%d\n", S0, S1);
+            printf("Output: %d%d\n", o0, o1);
+            printf("\n");
         }
         b1 = 0;
         b2 = 0;
