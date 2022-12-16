@@ -22,6 +22,7 @@ int main(){
             else if(b1 == 1 && b2 == 1){
                 printf("\033[32m""  B1: ON  ""B2: ON\n""\033[0;37m");
             }
+            printf("\n");
             printf("Current state = %d%d\n", S0, S1);
             printf("Output: %d%d\n", o0, o1);
             printf("\n");
@@ -42,6 +43,7 @@ int main(){
             else if(b1 == 1 && b2 == 1){
                 printf("\033[32m""  B1: ON  ""B2: ON\n""\033[0;37m");
             }
+            printf("\n");
             printf("Current state = %d%d\n", S0, S1);
             printf("Output: %d%d\n", o0, o1);
             printf("\n");
@@ -62,6 +64,7 @@ int main(){
             else if(b1 == 1 && b2 == 1){
                 printf("\033[32m""  B1: ON  ""B2: ON\n""\033[0;37m");
             }
+            printf("\n");
             printf("Current state = %d%d\n", S0, S1);
             printf("Output: %d%d\n", o0, o1);
             printf("\n");
@@ -83,6 +86,7 @@ int main(){
             else if(b1 == 1 && b2 == 1){
                 printf("\033[32m""  B1: ON  ""B2: ON\n""\033[0;37m");
             }
+            printf("\n");
             printf("Current state = %d%d\n", S0, S1);
             printf("Output: %d%d\n", o0, o1);
             printf("\n");
