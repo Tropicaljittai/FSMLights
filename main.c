@@ -93,7 +93,7 @@ int main(){
         }
         b1 = 0;
         b2 = 0;
-        int b = get_int("Button (1/2/3(both)): ");
+        int b = get_int("Button (0(none)/1/2/3(both)): ");
         if (b == 1){
             b1 = 1;
         }
