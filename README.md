@@ -66,13 +66,13 @@ Here's a simplified sequence of all the states.
 
 # Implementation in C
 
-To run the code, we must first run "make", as for myself I am on Windows and am using visual studio code, so for me I'll have to run "wsl" first and "make" afterwads, after running "make", the program will automatically run on a forever loop, and will behave according to the description above. For my program, I used cs50's library for help in taking input, just because scanf is dangerous in my opinion, and it just make things easier.
+To run the code, we must first run "make", as for myself I am on Windows and am using visual studio code, so for me I'll have to run "wsl" first and "make" afterwads, after running "make", the program will automatically run on a forever loop, and will behave according to the description above. For my program, I used cs50's library for help in taking input.
 
 ## This is a few screenshots example of how it will look like when running the program
 
-![image](https://user-images.githubusercontent.com/93302274/207544401-9a159880-8e11-4d10-b25b-ffd8876f48e6.png)
+![image](https://cdn.discordapp.com/attachments/735871514104168519/1059372139448373258/image.png)
 
-![image](https://user-images.githubusercontent.com/93302274/207544316-a657c564-0b4b-4a8a-8835-48f1161a2bfa.png)
+![image](https://cdn.discordapp.com/attachments/735871514104168519/1059372158998032484/image.png)
 
-![image](https://user-images.githubusercontent.com/93302274/207544431-5a7ad488-2bf0-44bc-8ec8-da57af68907b.png)
+![image](https://media.discordapp.net/attachments/735871514104168519/1059372185963200512/image.png)
 
