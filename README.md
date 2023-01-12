@@ -1,10 +1,10 @@
 # FSM House Lights
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052499794473517066/image.png)
 
-  At the starting state in the house, all lights are turned off. If one of the buttons is pressed (B1/B2) then L1 will turn on.  After L1 is turned on, if B1 is pressed then L1 will turn off and L2 will turn on, but if B2 is pressed then L1 will turn off and L3 will turn on. Finally, if any of the buttons Is pressed(B1/B2) then, the current light that is on will be turned off and we’ll get back at the initial state of the system
+  At the intial state in the house, all lights are turned off. If one of the buttons is pressed (B1/B2) then L1 will turn on.  After L1 is turned on, if B1 is pressed then L1 will turn off and L2 will turn on, but if B2 is pressed then L1 will turn off and L3 will turn on. Finally, if any of the buttons Is pressed(B1/B2) then, the current light that is on will be turned off and we’ll get back at the initial state of the system
   
 ## So there’s 4 states:
--	No lights turned on
+-	No lights turned on (Initial state)
 -	L1 turned on
 -	L2 turned on
 -	L3 turned on
@@ -15,27 +15,27 @@
 
 ## Below is how it works visualized: 
 
-So, at the initial state all lights are turned off.
+### So, at the initial state all lights are turned off.
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052499794473517066/image.png)
 
-Then, if button 1 (b1) or button 2 (b2) or if both the buttons are pressed (b1 & b2), L1 will be turned on.
+### Then, if button 1 (b1) or button 2 (b2) or if both the buttons are pressed (b1 & b2), L1 will be turned on.
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052958324032802837/image.png)
 
-At this state, there can be three possible states according to the input, if we press b1 then L1 will turn off and L2 will turn on:
+### At this state, there can be three possible states according to the input, if we press b1 then L1 will turn off and L2 will turn on:
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052962252954812416/image.png)
 
-But if we press b2 instead of b1, then L3 will turn on and L1 will turn off:
+### But if we press b2 instead of b1, then L3 will turn on and L1 will turn off:
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052962058573979729/image.png)
 
-And finally if we don't press either b1 or b2, and we instead press both of the buttons together, there won't be any changes, L1 will still be turned on and L2 & L3 is turned off. And stay like this until one of the buttons is pressed but not at the same time.
+### And finally if we don't press either b1 or b2, and we instead press both of the buttons together, there won't be any changes, L1 will still be turned on and L2 & L3 is turned off. And stay like this until one of the buttons is pressed but not at the same time.
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052958324032802837/image.png)
 
-If we end up with the two states, where either one of the buttons is pressed and not both, if we press either button 1 or 2 (b1/b2), then the current light that's turned on (L2/L3) will be turned off and we will back at our initial state. ( If both buttons are instead pressed then it will also stay in the current state, depending on either L2 or L3 was turned on.)
+### If we end up with the two states, where either one of the buttons is pressed and not both, if we press either button 1 or 2 (b1/b2), then the current light that's turned on (L2/L3) will be turned off and we will back at our initial state. ( If both buttons are instead pressed then it will also stay in the current state, depending on either L2 or L3 was turned on.)
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052964504281026590/image.png)
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052964678428528670/image.png)
