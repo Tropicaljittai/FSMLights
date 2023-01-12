@@ -5,15 +5,15 @@
   
 ## So there’s 4 states:
 -	No lights turned on (Initial state)
--	L1 turned on
--	L2 turned on
--	L3 turned on
+-	L1 turned on (2nd state)
+-	L2 turned on (Possible 3rd state)
+-	L3 turned on (Possible 3rd state)
 
 ## And we have 2 inputs:
 -	B1
 -	B2
 
-## Below is how it works visualized: 
+## Below is how it works visualized for the state transitions: 
 
 ### So, at the start, all lights are turned off by default (B1, B2, B3 = OFF), this will be ur initial state.
 
