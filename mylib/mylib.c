@@ -73,7 +73,7 @@ void output(int s0, int s1, int* o0, int* o1){
 #include <stdlib.h>
 #include <string.h>
 
-#include "cs50.h"
+#include "mylib.h"
 
 // Disable warnings from some compilers about the way we use variadic arguments 
 #pragma GCC diagnostic push
