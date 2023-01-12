@@ -42,7 +42,7 @@
 
 Here's a simplified sequence of all the states.
 
-![FSMLights](https://media.discordapp.net/attachments/734045662169137234/1053221739175358514/image.png)
+![FSMLights](https://cdn.discordapp.com/attachments/1025308569882599476/1063121364162203668/image.png)
 
  # From this we end up with:
  
