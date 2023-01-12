@@ -15,7 +15,7 @@
 
 ## Below is how it works visualized for the state transitions: 
 
-### So, at the start, all lights are turned off by default (B1, B2, B3 = OFF), this will be ur initial state.
+### So, at the start, all lights are turned off by default (B1, B2, B3 = OFF), this will be our initial state.
 
 ![FSMLights](https://cdn.discordapp.com/attachments/734045662169137234/1052499794473517066/image.png)
 
