@@ -74,9 +74,5 @@ To run the code, we must first run "make", as for myself I am on Windows and am 
 
 ## This is a few screenshots example of how it will look like when running the program
 
-![image](https://cdn.discordapp.com/attachments/735871514104168519/1059372139448373258/image.png)
-
-![image](https://cdn.discordapp.com/attachments/735871514104168519/1059372158998032484/image.png)
-
-![image](https://media.discordapp.net/attachments/735871514104168519/1059372185963200512/image.png)
+![watch](https://gyazo.com/d50bc7d4f5b4396318d2c1abf960630b)
 
