@@ -4,13 +4,13 @@
   At the intial state in the house, all lights are turned off. If one of the buttons is pressed (B1/B2) then L1 will turn on.  After L1 is turned on, if B1 is pressed then L1 will turn off and L2 will turn on, but if B2 is pressed then L1 will turn off and L3 will turn on. Finally, if any of the buttons Is pressed(B1/B2) then, the current light that is on will be turned off and we’ll get back at the initial state of the system
   
 ## So there’s 4 states:
--	No lights turned on (Initial state)
+### -	No lights turned on (Initial state)
 At this state the system will wait for one of the buttons to be pushed or both of the buttons to be pushed, all the lights will remain turned off like this until so. Once one of the conditions are done, it will transition to the 2d state where L1 will be turned on.
--	L1 turned on (2nd state)
+### -	L1 turned on (2nd state)
 At this state the system has 3 possbile states, if the user pushes B1 then L1 blub will turn off and the L2 bulb will turn on, which is the 3rd state. But if the user pushes B2 then L3 bulb will turn on and L1 bulb will turn off. And finally if both the buttons are pushed or the user doesn't push any button, both actions will result in the system staying in the system until either one of the buttons is pushed but not both at the same time.
--	L2 turned on (3rd state)
+### -	L2 turned on (3rd state)
 At this state by pushing any of the button (B1/B2) the L2 bulb will turn off and return to the inital state, and again if the user doesnt't push any of the buttons or if the user presses both buttons, the current state will remain the same and wait for a valid input.
--	L3 turned on (4th state)
+### -	L3 turned on (4th state)
 Same as the 3rd state, at this state by pushing any of the button (B1/B2) the L3 bulb will turn off and return to the inital state, and again if the user doesnt't push any of the buttons or if the user presses both buttons, the current state will remain the same and wait for a valid input.
 
 ## And we have 2 inputs:
