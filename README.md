@@ -74,5 +74,5 @@ To run the code, we must first run "make", as for myself I am on Windows and am 
 
 ## This is a few screenshots example of how it will look like when running the program
 
-![watch](https://gyazo.com/d50bc7d4f5b4396318d2c1abf960630b)
+![watch](https://i.gyazo.com/d50bc7d4f5b4396318d2c1abf960630b.mp4)
 
