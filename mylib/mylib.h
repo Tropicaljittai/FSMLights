@@ -38,9 +38,6 @@ void output(int s0, int s1, int* o0, int* o1);
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef CS50_H
-#define CS50_H
-
 #include <float.h>
 #include <limits.h>
 #include <stdarg.h>
@@ -110,4 +107,3 @@ long long get_long_long(const char *format, ...) __attribute__((format(printf, 1
 string get_string(va_list *args, const char *format, ...) __attribute__((format(printf, 2, 3)));
 #define get_string(...) get_string(NULL, __VA_ARGS__)
 
-#endif
